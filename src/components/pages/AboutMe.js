@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <div>
-      <h1>Introduction</h1>
+      <h1>Introduction!</h1>
         <p>
         Welcome to my website! I am a web developer who is eager to find opportunities to showcase my skills and prove that I can be an asset to any employer. I have project experience in front-end and back-end web development, including React.
         
@@ -11,3 +11,6 @@ export default function AboutMe() {
         </p>
     </div>
   );
+  }
+
+  
