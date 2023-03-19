@@ -2,24 +2,17 @@ import React from 'react';
 
 export default function AboutMe() {
   return (
-    <div className="justify-content-center">
-      <h1>About Me</h1>
-      <div
-        className="text-center"
-        style= {{/*paddingBottom:"100%", overflow: "hidden", position: "relative"}*/}}
-      >
+    <div className="about-me">
+      <h1>Shane Lev Dev</h1>
+      <div className="about-div">
         <img 
           src="https://i.imgur.com/geb4EEE.jpg"
           alt="profile"
-          className="img-fluid"
+          className="img-fluid profile"
           style= {{ maxWidth: '70%', height: "auto", aspectRatio: "1/1" }}
         />
-        <p
-          className="text-align-center"
-          style= {{ maxWidth: '70%' }}
-        >
-          Welcome to my website! I am a web developer who is eager to find opportunities to showcase my skills and prove that I can be an asset to any employer. I have project experience in front-end and back-end web development, including React.
-          Feel free to contact me for opportunites to connect!
+        <p  className="bio">
+          I am a problem-solving software engineer based in Los Angeles. I am looking for opportunities to grow and showcase how much of an asset I can be to potential employers. Not only do I have a strong work ethic, but I am a fast learner who likes to take on new challenges. 
         </p>
       </div>
     </div>

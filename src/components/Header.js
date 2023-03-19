@@ -12,7 +12,6 @@ import Contact from './pages/Contact';
 export default function Header() {
     const [currentPage, setCurrentPage] = useState('About');
   
-    // TODO: Add a comment describing the functionality of this method
     const renderPage = () => {
       if (currentPage === 'About') {
         return <AboutMe />;
@@ -29,11 +28,13 @@ export default function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
   
     return (
-      <div>
-        {<h1>Shane Levites</h1>}
-        {/* We are passing the currentPage from state and the function to update it */}
-        {<Navigation currentPage={currentPage} handlePageChange={handlePageChange} />} 
+      <body>
+        <header>
+          {<h1>Shane Levites</h1>}
+          {/* We are passing the currentPage from state and the function to update it */}
+          {<Navigation currentPage={currentPage} handlePageChange={handlePageChange} />} 
+        </header>
         {renderPage()}
-      </div>
+      </body>
     );
   }
