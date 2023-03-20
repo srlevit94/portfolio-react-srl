@@ -8,7 +8,7 @@ import '../../assets/css/Project.css';
 export default function Portfolio() {
   return (
     <div className = "portfolio">
-      <h2>Recent Projects</h2>
+      <h2>Recent Projects:</h2>
       <div className = "projectList">
       {ProjectList.map((project, index) => {
         return (

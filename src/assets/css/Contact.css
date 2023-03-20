@@ -1,0 +1,37 @@
+.contact-container {
+    display: block;
+    text-align: center;
+    align-items:center;
+
+}
+
+.contact-container h2 {
+    margin: 10px;
+    text-align: center;
+}
+
+.form-container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+.form-container input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    display: flexbox;
+}
+
+.form-container textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.form-container button {
+    margin-top: 20px;
+    display: block;
+    align-self: center;    
+}
+

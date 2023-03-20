@@ -28,7 +28,7 @@ function Footer() {
             fontSize="large"/>
         </a>
       </div>
-            <p> &copy; License statement here </p>
+            <p> &copy; Shane Levites 2023 </p>
         </footer>
     );
 }
