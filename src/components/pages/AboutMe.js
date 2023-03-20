@@ -3,7 +3,7 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <div className="about-me">
-      <h1>Shane Lev Dev</h1>
+      <h1>Welcome to Shane Lev Dev!</h1>
       <div className="about-div">
         <img 
           src="https://i.imgur.com/geb4EEE.jpg"

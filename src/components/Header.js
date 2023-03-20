@@ -28,13 +28,13 @@ export default function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
   
     return (
-      <body>
+      <div>
         <header>
           {<h1>Shane Levites</h1>}
           {/* We are passing the currentPage from state and the function to update it */}
           {<Navigation currentPage={currentPage} handlePageChange={handlePageChange} />} 
         </header>
         {renderPage()}
-      </body>
+      </div>
     );
   }
