@@ -3,6 +3,7 @@ import '../../assets/css/Contact.css';
 
 import { validateEmail } from '../../helpers/validateForm';
 
+// styling for error message
 const styles = {
   validationError: {
     color: '#ff0000',
@@ -32,7 +33,8 @@ function Contact() {
     }
   };
 
-  const handleBlur = (e) => {
+  // sets error message if a form field is not not valid
+  const handleBlur = () => {
     if (!contactName) {
       setErrorMessage('Please input a name');
       console.log(errorMessage);
@@ -57,9 +59,6 @@ function Contact() {
       setErrorMessage('')
     }
 
-    // setContactName('');
-    // setEmail('');
-    // setMessage('');
   };
 
   return (

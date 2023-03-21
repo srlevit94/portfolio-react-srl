@@ -12,7 +12,7 @@ export default function Portfolio() {
       <div className = "projectList">
       {ProjectList.map((project, index) => {
         return (
-        <Project key={index} name={project.name} image={project.image} repo = {project.repo} appLink= {project.appLink} />
+        <Project key={index} name={project.name} image={project.image} repo = {project.repo} appLink= {project.appLink} imageHov= {project.imageHov} />
         );
       })}
       </div>

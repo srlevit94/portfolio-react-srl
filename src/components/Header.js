@@ -10,8 +10,10 @@ import Contact from './pages/Contact';
 
 
 export default function Header() {
+  //defaults to about page on load
     const [currentPage, setCurrentPage] = useState('About');
   
+    // renders page based on nav selection
     const renderPage = () => {
       if (currentPage === 'About') {
         return <AboutMe />;
