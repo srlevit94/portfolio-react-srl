@@ -1,5 +1,7 @@
 import React from 'react';
 import resumePdf from '../../assets/LevitesResume.pdf';
+import '../../assets/css/Resume.css';
+
 
 // opens pdf of resume
 const handleResumeClick = () => {
@@ -23,15 +25,27 @@ export default function Resume() {
       onClick={handleResumeClick}>
         <button className="btn btn-outline-success btn-lg btn-block">Click to Download Resume</button>
       </div>
-      <div>
-        <h2>Skills</h2>
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
-        </ul>
+      <div className="skillsContainer">
+        <div>
+          <h2>Front-End Skills</h2>
+          <ul className="skillsList">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>React</li>
+          </ul>
+        </div>
+        <div>
+        <h2>Back-End Skills</h2>
+          <ul className="skillsList">
+              <li>APIs</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>MERN Stack</li>
+              <li>NodeJS</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

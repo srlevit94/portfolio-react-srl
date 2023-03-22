@@ -20,7 +20,7 @@
     width: 100%;
     height: auto;
     margin: 10px;
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
 }
 
 .project {
@@ -41,6 +41,7 @@ padding: 1%;
 .button-container {
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 @media screen and (max-width: 600px) {

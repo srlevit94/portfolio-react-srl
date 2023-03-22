@@ -1,14 +1,11 @@
 import React from 'react';
 import '../assets/css/Project.css';
 
-
-
 // pulls data from ProjectList.js and populates into a card
 export default function Project({name, image, imageHov, repo, appLink}) {
 
     function over(e) {
         e.currentTarget.src =  imageHov ;
-        console.log(imageHov)
      }
     function out(e) {
         e.currentTarget.src =  image ;

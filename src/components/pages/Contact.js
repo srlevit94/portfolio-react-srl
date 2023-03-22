@@ -37,7 +37,6 @@ function Contact() {
   const handleBlur = () => {
     if (!contactName) {
       setErrorMessage('Please input a name');
-      console.log(errorMessage);
       return;
     } else {
       setErrorMessage('')
@@ -45,7 +44,6 @@ function Contact() {
     
     if (!validateEmail(email)) {
       setErrorMessage('Email not valid');
-      console.log(errorMessage);
       return;
     } else {
       setErrorMessage('')
@@ -53,7 +51,6 @@ function Contact() {
 
     if (!message) {
       setErrorMessage('Please input a message');
-      console.log(errorMessage);
       return;
     } else {
       setErrorMessage('')
