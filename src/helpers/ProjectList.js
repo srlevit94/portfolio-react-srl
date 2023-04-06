@@ -16,9 +16,19 @@ import teamGenHov from '../assets/images/teamGen-hov.png'
 import weather from '../assets/images/weather.png'
 import weatherHov from '../assets/images/weather-hov.png'
 
+import vroom from '../assets/images/vroom.png'
+import vroomHov from '../assets/images/vroom-hov.png'
+
 
 
 export const ProjectList = [
+    {
+      name: "vROOM vROOM",
+      image: vroom,
+      imageHov: vroomHov,
+      repo: "https://github.com/sjuan634/vROOM-vROOM",
+      appLink: "https://prj3-vroom-vroom.herokuapp.com/"
+    },
     {
       name: "PWA Text Editor",
       image: pwaEditor,
