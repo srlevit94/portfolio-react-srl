@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-react-srl/static/css/main.690b9d8f.css",
-    "main.js": "/portfolio-react-srl/static/js/main.be6012eb.js",
+    "main.css": "/portfolio-react-srl/static/css/main.53e1a278.css",
+    "main.js": "/portfolio-react-srl/static/js/main.6200249b.js",
     "static/media/deptSQL-hov.png": "/portfolio-react-srl/static/media/deptSQL-hov.5c4a3aa91e6086b1566d.png",
+    "static/media/vroom-hov.png": "/portfolio-react-srl/static/media/vroom-hov.83cd22e971d242024664.png",
     "static/media/eCom-hov.png": "/portfolio-react-srl/static/media/eCom-hov.1816c52a3cb4103eebd0.png",
     "static/media/snsApi-hov.png": "/portfolio-react-srl/static/media/snsApi-hov.6372ab88deb6e459c6b8.png",
     "static/media/teamGen-hov.png": "/portfolio-react-srl/static/media/teamGen-hov.a44efa5dd81d715c16ff.png",
@@ -15,12 +16,13 @@
     "static/media/snsApi.png": "/portfolio-react-srl/static/media/snsApi.117ae2faf3af345a0772.png",
     "static/media/weather.png": "/portfolio-react-srl/static/media/weather.46e9f0a07bf509f716dd.png",
     "static/media/pwaEditor.png": "/portfolio-react-srl/static/media/pwaEditor.e38c283f9af928480a5c.png",
+    "static/media/vroom.png": "/portfolio-react-srl/static/media/vroom.3d9e2461f0d728d8f337.png",
     "index.html": "/portfolio-react-srl/index.html",
-    "main.690b9d8f.css.map": "/portfolio-react-srl/static/css/main.690b9d8f.css.map",
-    "main.be6012eb.js.map": "/portfolio-react-srl/static/js/main.be6012eb.js.map"
+    "main.53e1a278.css.map": "/portfolio-react-srl/static/css/main.53e1a278.css.map",
+    "main.6200249b.js.map": "/portfolio-react-srl/static/js/main.6200249b.js.map"
   },
   "entrypoints": [
-    "static/css/main.690b9d8f.css",
-    "static/js/main.be6012eb.js"
+    "static/css/main.53e1a278.css",
+    "static/js/main.6200249b.js"
   ]
 }
