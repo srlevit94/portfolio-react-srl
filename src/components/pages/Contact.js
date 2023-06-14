@@ -60,7 +60,7 @@ function Contact() {
 
   return (
     <div className = "contact-container">
-      <h2>Contact Me!</h2>
+      <h2>Contact Me at <a href="mailto:srlevit94@gmail.com">srlevit94@gmail.com</a>!</h2>
       <p style={styles.validationError}>{errorMessage}</p>
       <form onSubmit={(e) => e.preventDefault()} className='form-container'>
           <input 

@@ -12,8 +12,7 @@ export default function AboutMe() {
           style= {{ maxWidth: '70%', height: "auto", aspectRatio: "1/1" }}
         />
         <p  className="bio">
-          I am a problem-solving software engineer based in Los Angeles. I am looking for opportunities to grow and showcase how much of an asset I can be to potential employers. Not only do I have a strong work ethic, but I am a fast learner who likes to take on new challenges. 
-        </p>
+        Software Engineer who identifies and solves problems. Recognized for finding technological solutions to streamline processes and for adapting to evolving compliance standards during ten years in International Education. Can combine past experience with skills acquired from a Certificate in Web Development to help organizations optimize their projects.        </p>
       </div>
     </div>
   );
